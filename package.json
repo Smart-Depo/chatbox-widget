@@ -2,9 +2,9 @@
   "name": "@upstash/chatbox",
   "version": "1.3.1",
   "license": "MIT",
-  "main": "./dist/chatbox.js",
-  "module": "./dist/chatbox.mjs",
-  "types": "./dist/chatbox.d.ts",
+  "main": "dist/chatbox.js",
+  "module": "dist/chatbox.mjs",
+  "types": "dist/chatbox.d.ts",
   "scripts": {
     "build": "tsup && cp package.json ./dist/",
     "dev": "next dev"
