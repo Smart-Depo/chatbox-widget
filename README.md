@@ -7,3 +7,7 @@ Create a ChatBox Widget (like Intercom live chat) for your Next.js app. Nothing 
 This is our fork of the original project just so we could control where the chat host resolves.
 
 Plan at some point to make this a proper fork and make that item configurable in settings
+
+---
+
+Remember to `npm run build` and tag before pushing to github

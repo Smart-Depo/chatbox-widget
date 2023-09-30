@@ -29,7 +29,7 @@ function createChatBoxAPI(options) {
     const method = req.method;
     const api = req.query.chatbox[0];
     const chatId = req.query.chatbox[1];
-    const host = `https://chat-server-eta-pied.vercel.app/`;
+    const host = `https://smartdepo.chat`;
     try {
       if (!chatId)
         throw new Error("Missing chatId");
