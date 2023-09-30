@@ -10,7 +10,7 @@ export default function createChatBoxAPI(options: { webhooks: string[] }) {
     const api = req.query.chatbox[0];
     const chatId = req.query.chatbox[1];
     //const host = `http://${req.headers.host}`;
-    const host = `https://chat-server-eta-pied.vercel.app/`;
+    const host = `https://chat-server-eta-pied.vercel.app`;
 
     try {
       if (!chatId) throw new Error("Missing chatId");
